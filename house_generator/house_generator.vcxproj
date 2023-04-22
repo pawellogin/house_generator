@@ -130,9 +130,14 @@
     <ClCompile Include="house_generator.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="body.h" />
+    <ClInclude Include="border.h" />
+    <ClInclude Include="map.h" />
+    <ClInclude Include="rectangle.h" />
     <ClInclude Include="hause.h" />
-    <ClInclude Include="roof.h" />
+    <ClInclude Include="right_triangle.h" />
+    <ClInclude Include="shape.h" />
+    <ClInclude Include="tree.h" />
+    <ClInclude Include="triangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
